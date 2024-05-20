@@ -1,7 +1,7 @@
-import { getApp, getApps, initializeApp } from "firebase/app";
+import { getApp, getApps, initializeApp } from 'firebase/app'
 
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { getAuth } from 'firebase/auth'
+import { getFirestore } from 'firebase/firestore'
 
 const app =
   getApps().length > 0
@@ -14,7 +14,7 @@ const app =
         messagingSenderId: process.env.NEXT_PUBLIC_MESSAGEING_SENDER_ID,
         appId: process.env.NEXT_PUBLIC_APP_ID,
         measurementId: process.env.NEXT_PUBLIC_MEASUREMENT_ID,
-      });
+      })
 
-export const auth = getAuth(app);
-export const store = getFirestore(app);
+export const auth = getAuth(app)
+export const store = getFirestore(app)
