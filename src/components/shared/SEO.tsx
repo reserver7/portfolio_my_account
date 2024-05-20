@@ -1,9 +1,9 @@
-import Head from "next/head";
+import Head from 'next/head'
 
 interface SEOProps {
-  title: string;
-  description: string;
-  image: string;
+  title: string
+  description: string
+  image: string
 }
 
 function SEO({ title, description, image }: SEOProps) {
@@ -19,7 +19,7 @@ function SEO({ title, description, image }: SEOProps) {
       <meta property="og:description" content={description} />
       <meta property="og:locale" content="ko_KR" />
     </Head>
-  );
+  )
 }
 
-export default SEO;
+export default SEO

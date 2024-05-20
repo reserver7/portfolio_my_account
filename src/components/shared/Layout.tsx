@@ -1,6 +1,6 @@
-import Head from "next/head";
-import React from "react";
-import SEO from "./SEO";
+import Head from 'next/head'
+import React from 'react'
+import SEO from './SEO'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -15,7 +15,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </Head>
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
