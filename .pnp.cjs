@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@visx/responsive", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:3.10.2"],\
           ["@visx/scale", "npm:3.5.0"],\
           ["@visx/shape", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:3.5.0"],\
-          ["date-fns", "npm:2.30.0"],\
+          ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:14.0.0"],\
           ["eslint-config-prettier", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:9.1.0"],\
@@ -3097,11 +3097,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["date-fns", [\
-      ["npm:2.30.0", {\
-        "packageLocation": "../../luke/.yarn/berry/cache/date-fns-npm-2.30.0-895c790e0f-10c0.zip/node_modules/date-fns/",\
+      ["npm:3.6.0", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/date-fns-npm-3.6.0-e59d980978-10c0.zip/node_modules/date-fns/",\
         "packageDependencies": [\
-          ["date-fns", "npm:2.30.0"],\
-          ["@babel/runtime", "npm:7.24.5"]\
+          ["date-fns", "npm:3.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6067,7 +6066,7 @@ const RAW_RUNTIME_STATE =
           ["@visx/responsive", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:3.10.2"],\
           ["@visx/scale", "npm:3.5.0"],\
           ["@visx/shape", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:3.5.0"],\
-          ["date-fns", "npm:2.30.0"],\
+          ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:14.0.0"],\
           ["eslint-config-prettier", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:9.1.0"],\

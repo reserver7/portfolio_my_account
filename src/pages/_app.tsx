@@ -1,6 +1,7 @@
 import AuthGuard from '@/components/auth/AuthGuard'
 import Layout from '@/components/shared/Layout'
 import Navbar from '@/components/shared/Navbar'
+import { AlertContextProvider } from '@/contexts/AlertContext'
 import globalStyles from '@/styles/globalStyles'
 import { Global } from '@emotion/react'
 import { SessionProvider } from 'next-auth/react'
@@ -19,10 +20,12 @@ export default function App({
       <SessionProvider session={session}>
         <QueryClientProvider client={clinet}>
           <Hydrate state={dehydratedState}>
-            <AuthGuard>
-              <Navbar />
-              <Component {...pageProps} />
-            </AuthGuard>
+            <AlertContextProvider>
+              <AuthGuard>
+                <Navbar />
+                <Component {...pageProps} />
+              </AuthGuard>
+            </AlertContextProvider>
           </Hydrate>
         </QueryClientProvider>
       </SessionProvider>
