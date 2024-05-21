@@ -18,7 +18,7 @@
     "@visx/shape": "^3.3.0",
     "date-fns": "^2.30.0",
     "firebase": "^10.5.2",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^11.2.4",
     "next": "^13.0.0",
     "next-auth": "^4.24.4",
     "react": "^18",
