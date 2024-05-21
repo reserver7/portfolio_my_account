@@ -4268,7 +4268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-auth@npm:^4.24.4":
+"next-auth@npm:^4.24.7":
   version: 4.24.7
   resolution: "next-auth@npm:4.24.7"
   dependencies:
@@ -4626,7 +4626,7 @@ __metadata:
     firebase: "npm:^10.5.2"
     framer-motion: "npm:^11.2.4"
     next: "npm:^13.0.0"
-    next-auth: "npm:^4.24.4"
+    next-auth: "npm:^4.24.7"
     prettier: "npm:^3.0.3"
     react: "npm:^18"
     react-dom: "npm:^18"
