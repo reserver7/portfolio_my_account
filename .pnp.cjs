@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:5.1.3"],\
           ["firebase", "npm:10.12.0"],\
-          ["framer-motion", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:10.18.0"],\
+          ["framer-motion", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:11.2.4"],\
           ["next", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:13.5.6"],\
           ["next-auth", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:4.24.7"],\
           ["prettier", "npm:3.2.5"],\
@@ -177,14 +177,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@emotion/is-prop-valid", [\
-      ["npm:0.8.8", {\
-        "packageLocation": "../../luke/.yarn/berry/cache/@emotion-is-prop-valid-npm-0.8.8-261a0f2426-10c0.zip/node_modules/@emotion/is-prop-valid/",\
-        "packageDependencies": [\
-          ["@emotion/is-prop-valid", "npm:0.8.8"],\
-          ["@emotion/memoize", "npm:0.7.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.2.2", {\
         "packageLocation": "../../luke/.yarn/berry/cache/@emotion-is-prop-valid-npm-1.2.2-53f93f2b2d-10c0.zip/node_modules/@emotion/is-prop-valid/",\
         "packageDependencies": [\
@@ -195,13 +187,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@emotion/memoize", [\
-      ["npm:0.7.4", {\
-        "packageLocation": "../../luke/.yarn/berry/cache/@emotion-memoize-npm-0.7.4-5648cf11b8-10c0.zip/node_modules/@emotion/memoize/",\
-        "packageDependencies": [\
-          ["@emotion/memoize", "npm:0.7.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.8.1", {\
         "packageLocation": "../../luke/.yarn/berry/cache/@emotion-memoize-npm-0.8.1-9b1e35ff15-10c0.zip/node_modules/@emotion/memoize/",\
         "packageDependencies": [\
@@ -4136,18 +4121,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["framer-motion", [\
-      ["npm:10.18.0", {\
-        "packageLocation": "../../luke/.yarn/berry/cache/framer-motion-npm-10.18.0-5bde07d9ec-10c0.zip/node_modules/framer-motion/",\
+      ["npm:11.2.4", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/framer-motion-npm-11.2.4-8d23b062ab-10c0.zip/node_modules/framer-motion/",\
         "packageDependencies": [\
-          ["framer-motion", "npm:10.18.0"]\
+          ["framer-motion", "npm:11.2.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:10.18.0", {\
-        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-29c133f771/3/luke/.yarn/berry/cache/framer-motion-npm-10.18.0-5bde07d9ec-10c0.zip/node_modules/framer-motion/",\
+      ["virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:11.2.4", {\
+        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-5ce1a4fd9f/3/luke/.yarn/berry/cache/framer-motion-npm-11.2.4-8d23b062ab-10c0.zip/node_modules/framer-motion/",\
         "packageDependencies": [\
-          ["framer-motion", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:10.18.0"],\
-          ["@emotion/is-prop-valid", "npm:0.8.8"],\
+          ["framer-motion", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:11.2.4"],\
+          ["@emotion/is-prop-valid", null],\
+          ["@types/emotion__is-prop-valid", null],\
           ["@types/react", "npm:18.3.2"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["react", "npm:18.3.1"],\
@@ -4155,6 +4141,8 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.2"]\
         ],\
         "packagePeers": [\
+          "@emotion/is-prop-valid",\
+          "@types/emotion__is-prop-valid",\
           "@types/react-dom",\
           "@types/react",\
           "react-dom",\
@@ -6085,7 +6073,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:5.1.3"],\
           ["firebase", "npm:10.12.0"],\
-          ["framer-motion", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:10.18.0"],\
+          ["framer-motion", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:11.2.4"],\
           ["next", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:13.5.6"],\
           ["next-auth", "virtual:326cdfad675760de3d6d4b2cea04a68acf740a8fd467b8eaa0f0b7926cf3fd1e9552a07247c6f7b5362af9fdff4ed6fcad673fa5d83613dd1f0be48fc9398b71#npm:4.24.7"],\
           ["prettier", "npm:3.2.5"],\
