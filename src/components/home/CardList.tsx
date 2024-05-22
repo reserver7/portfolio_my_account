@@ -1,7 +1,7 @@
+import withSuspense from '@/hooks/withSuspense'
 import Badge from '@shared/Badge'
 import ListRow from '@shared/ListRow'
 import Text from '@shared/Text'
-import withSuspense from '@shared/hocs/withSuspense'
 import { useRouter } from 'next/router'
 import Button from '../shared/Button'
 import Skeleton from '../shared/Skeleton'
