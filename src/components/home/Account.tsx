@@ -69,7 +69,9 @@ const Account = () => {
             {addDelimiter(account.balance)}원
           </Text>
         </Flex>
-        <Button>분석</Button>
+        <Link href="/account">
+          <Button>분석</Button>
+        </Link>
       </Flex>
     </div>
   )
