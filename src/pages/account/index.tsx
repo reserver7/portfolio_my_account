@@ -1,3 +1,4 @@
+import PiggybankRow from '@/components/account/PiggybankRow'
 import Spacing from '@/components/shared/Spacing'
 import withAuth from '@/hooks/withAuth'
 import dynamic from 'next/dynamic'
@@ -12,6 +13,14 @@ const AccountPage = () => {
   return (
     <div>
       <MonthlyChart chartData={generateMonthlyChartData()} />
+
+      <Spacing
+        size={8}
+        backgroundColor="gray100"
+        style={{ margin: '20px 0' }}
+      />
+
+      <PiggybankRow />
 
       <Spacing
         size={8}
