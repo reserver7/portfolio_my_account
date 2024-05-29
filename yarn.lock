@@ -1244,7 +1244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18":
+"@types/react-dom@npm:*, @types/react-dom@npm:^18":
   version: 18.3.0
   resolution: "@types/react-dom@npm:18.3.0"
   dependencies:
@@ -1348,7 +1348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/axis@npm:^3.4.1":
+"@visx/axis@npm:^3.10.1":
   version: 3.10.1
   resolution: "@visx/axis@npm:3.10.1"
   dependencies:
@@ -1363,6 +1363,20 @@ __metadata:
   peerDependencies:
     react: ^16.3.0-0 || ^17.0.0-0 || ^18.0.0-0
   checksum: 10c0/163b5c216f52f4a3fa931bb92dc417cc8b184f76ee5095373f1d8026f32ce3530b689d2bd06ae8c1803927cad377f3a814cebcc9d50b48f969e158e2c2fcf0ce
+  languageName: node
+  linkType: hard
+
+"@visx/bounds@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@visx/bounds@npm:3.3.0"
+  dependencies:
+    "@types/react": "npm:*"
+    "@types/react-dom": "npm:*"
+    prop-types: "npm:^15.5.10"
+  peerDependencies:
+    react: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
+    react-dom: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
+  checksum: 10c0/4c43a80e5d0fdfb5bb6123b26bb32b43645e04fa16cd1f1c1a5fdb7e9e9cd40c9619d269e151c1276b0fc925ae38e92c8a8f608e7be4b98fdf99dbd18837a265
   languageName: node
   linkType: hard
 
@@ -1396,7 +1410,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/responsive@npm:^3.3.0":
+"@visx/responsive@npm:^3.10.2":
   version: 3.10.2
   resolution: "@visx/responsive@npm:3.10.2"
   dependencies:
@@ -1410,7 +1424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/scale@npm:3.5.0, @visx/scale@npm:^3.3.0":
+"@visx/scale@npm:3.5.0, @visx/scale@npm:^3.5.0":
   version: 3.5.0
   resolution: "@visx/scale@npm:3.5.0"
   dependencies:
@@ -1419,7 +1433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/shape@npm:3.5.0, @visx/shape@npm:^3.3.0":
+"@visx/shape@npm:3.5.0, @visx/shape@npm:^3.5.0":
   version: 3.5.0
   resolution: "@visx/shape@npm:3.5.0"
   dependencies:
@@ -1454,6 +1468,22 @@ __metadata:
   peerDependencies:
     react: ^16.3.0-0 || ^17.0.0-0 || ^18.0.0-0
   checksum: 10c0/78595c535934775c5ce5d2bb8a926608e0119b24cfab9bed12221fcb88a9fbccdd8775339b130b1dbf555c32a356e71db23cb9e0387a320ec5ca9be95f6d9c20
+  languageName: node
+  linkType: hard
+
+"@visx/tooltip@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@visx/tooltip@npm:3.3.0"
+  dependencies:
+    "@types/react": "npm:*"
+    "@visx/bounds": "npm:3.3.0"
+    classnames: "npm:^2.3.1"
+    prop-types: "npm:^15.5.10"
+    react-use-measure: "npm:^2.0.4"
+  peerDependencies:
+    react: ^16.8.0-0 || ^17.0.0-0 || ^18.0.0-0
+    react-dom: ^16.8.0-0 || ^17.0.0-0 || ^18.0.0-0
+  checksum: 10c0/56b58a8ad8880d66bcf7868dc46dfc259da6e2f85a3fc25b7f97b8020c41bea756b723ca7e966ecb61d8e4bb03350baeaac998f84e4b38764a84967cf42171c7
   languageName: node
   linkType: hard
 
@@ -2152,6 +2182,13 @@ __metadata:
   version: 3.6.0
   resolution: "date-fns@npm:3.6.0"
   checksum: 10c0/0b5fb981590ef2f8e5a3ba6cd6d77faece0ea7f7158948f2eaae7bbb7c80a8f63ae30b01236c2923cf89bb3719c33aeb150c715ea4fe4e86e37dcf06bed42fb6
+  languageName: node
+  linkType: hard
+
+"debounce@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "debounce@npm:1.2.1"
+  checksum: 10c0/6c9320aa0973fc42050814621a7a8a78146c1975799b5b3cc1becf1f77ba9a5aa583987884230da0842a03f385def452fad5d60db97c3d1c8b824e38a8edf500
   languageName: node
   linkType: hard
 
@@ -4611,11 +4648,12 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
-    "@visx/axis": "npm:^3.4.1"
+    "@visx/axis": "npm:^3.10.1"
     "@visx/group": "npm:^3.3.0"
-    "@visx/responsive": "npm:^3.3.0"
-    "@visx/scale": "npm:^3.3.0"
-    "@visx/shape": "npm:^3.3.0"
+    "@visx/responsive": "npm:^3.10.2"
+    "@visx/scale": "npm:^3.5.0"
+    "@visx/shape": "npm:^3.5.0"
+    "@visx/tooltip": "npm:^3.3.0"
     date-fns: "npm:^3.6.0"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.0.0"
@@ -4832,6 +4870,18 @@ __metadata:
     react-native:
       optional: true
   checksum: 10c0/319045ef31b9b02aa9b5446169a8c6f95cfe49406466b819cc85e41c29bfe5032d3732577efe56511278db41514772375d416a3e3976e8967c6e0972ff04dd2e
+  languageName: node
+  linkType: hard
+
+"react-use-measure@npm:^2.0.4":
+  version: 2.1.1
+  resolution: "react-use-measure@npm:2.1.1"
+  dependencies:
+    debounce: "npm:^1.2.1"
+  peerDependencies:
+    react: ">=16.13"
+    react-dom: ">=16.13"
+  checksum: 10c0/77b035189dbd613f50014ae56cbfc1363a4eba5104f68f3bc09cbdd20719ae7fb42884e53328175c30b238215c5b8064c60098d70b3fa9b8d902db6ffb07c6a3
   languageName: node
   linkType: hard
 
